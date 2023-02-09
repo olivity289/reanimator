@@ -1,0 +1,49 @@
+local global_env = (getgenv and getgenv()) or _G
+
+global_env.Settings = {
+
+    -- Base Settings
+
+    ["VelocityForce"] = 10,
+
+    ["AntiSleepForce"] = 1,
+
+    ["LoadLibrary"] = false,
+
+    ["DisableMovementVelocity"] = false,
+
+    ["PermaDeath"] = false,
+
+    ["SingleThread"] = true,
+
+    ["AntiVoid"] = true,
+
+    
+
+    -- Rig Settings
+
+    ["R15ToR6"] = true,
+
+    ["EnableAnims"] = true,
+
+    ["FullNoclip"] = false,
+
+    ["HeadMovementMethod"] = false,
+
+    ["KeepWeldedHair"] = true,
+
+    ["Headless"] = false,
+
+    
+
+    -- Fling Settings
+
+    ["BulletOnLoad"] = false,
+
+    ["Bullet"] = false
+
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/toldblock/Reanimation/main/main.lua"))()
+
+ (modifié Avant-hier à 12:24)
